@@ -1,6 +1,6 @@
 # Index
-1. **Installation** installed - [link](#)
-2. **Custributions** installed (if using Docker-compose) - [link](#)
+1. **Installation**[link](#)
+2. **Custributions**[link](#)
 
 # Installation guide
 ### prerequisites
