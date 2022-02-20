@@ -29,5 +29,5 @@ python3 main.py
 # Screenshot
 <img align="center" src=".img/main.jpg">
 
-# Custributions
-### https://github.com/Kato7Pog
+## Custributions
+#### https://github.com/Kato7Pog
