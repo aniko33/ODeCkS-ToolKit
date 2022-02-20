@@ -1,6 +1,6 @@
 # Index
-1. **Installation**[link](#)
-2. **Custributions**[link](#)
+1. [Installation](https://github.com/aniko33/ODeCkS-ToolKit#installation-guide)
+2. [Custributions](https://github.com/aniko33/ODeCkS-ToolKit#custributions)
 
 # Installation guide
 ### prerequisites
