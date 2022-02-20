@@ -1,6 +1,6 @@
 # Index
-<a href="installation-guide">Installation</a>
-<a href="custributions">Custributions</a>
+1. **Installation** installed - [link](#)
+2. **Custributions** installed (if using Docker-compose) - [link](#)
 
 # Installation guide
 ### prerequisites
@@ -19,3 +19,4 @@
 
 # Custributions
 ## https://github.com/Kato7Pog
+
