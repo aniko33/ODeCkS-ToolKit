@@ -1,10 +1,3 @@
-# Index
-<ul>
-  <a href="https://github.com/aniko33/ODeCkS-ToolKit/blob/main/README.md#installation-guide">Installation Guide</a>
-  <a href="https://github.com/aniko33/ODeCkS-ToolKit/blob/main/README.md#screenshot">Screenshot</a>
-  <a href="https://github.com/aniko33/ODeCkS-ToolKit/blob/main/README.md#custributions">Custributions</a>
-</ul>
-
 # Installation guide
 ### prerequisites
 #### Python
