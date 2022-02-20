@@ -1,9 +1,6 @@
 # Index
-<ul>
-  <a href="installation-guide">Installation Guide</a>
-  <a href="screenshot">Screenshot</a>
-  <a href="custributions">Custributions</a>
-</ul>
+<a href="installation-guide">Installation</a>
+<a href="custributions">Custributions</a>
 
 # Installation guide
 ### prerequisites
