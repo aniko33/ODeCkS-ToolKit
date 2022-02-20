@@ -27,6 +27,6 @@ git clone https://github.com/aniko33/ODeCkS-ToolKit && cd ODeCkS-ToolKit
 python3 main.py
 ```
 # Screenshot
-<img align="center" src=".img/main.jpg" width="900">
+<img align="center" src=".img/main.jpg" >
 # Custributions
-### https://github.com/Kato7Pog
+<p>https://github.com/Kato7Pog</p>
