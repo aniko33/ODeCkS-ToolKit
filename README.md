@@ -20,8 +20,5 @@ For Redhat
 #### Now starting the tool
 ```python3 main.py```
 
-<!--# Screenshot-->
-<!--<img src=".img/main.png"/>-->
-
 # Custributions
 ## https://github.com/Kato7Pog
