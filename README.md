@@ -1,8 +1,8 @@
 # Index
 <ul>
-  <a href="#">Installation Guide</a>
-  <a href="#">Screenshot</a>
-  <a href="#">Custributions</a>
+  <a href="https://github.com/aniko33/ODeCkS-ToolKit/blob/main/README.md#installation-guide">Installation Guide</a>
+  <a href="https://github.com/aniko33/ODeCkS-ToolKit/blob/main/README.md#screenshot">Screenshot</a>
+  <a href="https://github.com/aniko33/ODeCkS-ToolKit/blob/main/README.md#custributions">Custributions</a>
 </ul>
 
 # Installation guide
@@ -20,8 +20,8 @@ For Redhat
 #### Now starting the tool
 ```python3 main.py```
 
-# Screenshot
-<img src=".img/main.png"/>
+<!--# Screenshot-->
+<!--<img src=".img/main.png"/>-->
 
 # Custributions
 ## https://github.com/Kato7Pog
