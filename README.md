@@ -18,5 +18,4 @@
 ```python3 main.py```
 
 # Custributions
-## https://github.com/Kato7Pog
-
+#### https://github.com/Kato7Pog
