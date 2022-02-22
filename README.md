@@ -2,9 +2,9 @@
 [![License](https://img.shields.io/badge/License-GPL_3.0-green)](#)
 [![Discord](https://img.shields.io/badge/Server-Discord-blue)](https://discord.gg/zcsZnDkBuS)
 # Index
-1. [Installation](https://github.com/aniko33/ODeCkS-ToolKit#installation-guide)
-2. [Custributions](https://github.com/aniko33/ODeCkS-ToolKit#custributions)
-3. [Screenshot](https://github.com/aniko33/ODeCkS-ToolKit#screenshot)
+- [Installation](https://github.com/aniko33/ODeCkS-ToolKit#installation-guide)
+- [Custributions](https://github.com/aniko33/ODeCkS-ToolKit#custributions)
+- [Screenshot](https://github.com/aniko33/ODeCkS-ToolKit#screenshot)
 # Installation guide
 ## pre-requisites
 ### Python
