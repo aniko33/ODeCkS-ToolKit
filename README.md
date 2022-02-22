@@ -1,5 +1,6 @@
 [![Version](https://img.shields.io/badge/Version-0.1%20Beta-red)](#)
-[![Version](https://img.shields.io/badge/Server-Discord-blue)](https://discord.gg/zcsZnDkBuS)
+[![Discord](https://img.shields.io/badge/Server-Discord-blue)](https://discord.gg/zcsZnDkBuS)
+[![License](https://img.shields.io/badge/License-GPL_3.0-blue)](#)
 # Index
 1. [Installation](https://github.com/aniko33/ODeCkS-ToolKit#installation-guide)
 2. [Custributions](https://github.com/aniko33/ODeCkS-ToolKit#custributions)
