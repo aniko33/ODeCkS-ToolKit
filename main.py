@@ -1,6 +1,10 @@
+from ast import For
 import time
 import os
 import getpass
+import colorama
+from colorama import Fore, Back,Style
+colorama.init(autoreset=True)
 def phoneinfoga():
     os.system('clear')
     phonenumber=input('Phome number: ')
@@ -31,7 +35,7 @@ def scanner():
         nmap()
 def nmap():
     os.system('clear')
-    print("""
+    print(Fore.GREEN+"""
   _  _   __  __     _     ___ 
  | \| | |  \/  |   /_\   | _ |
  | .` | | |\/| |  / _ \  |  _|
@@ -58,7 +62,7 @@ def nmap():
         os.system('nmap -sV -O -script vuln '+IP)
 def msfbuider():
     os.system('clear')
-    print('''
+    print(Fore.CYAN+'''
           °*°°°.                .°*°°°          
                  °°°°°°°°°°°°°°                 
          °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°         
@@ -134,7 +138,7 @@ def upgrade():
         os.system('sudo apt install curl && sudo pacman -S curl')
 def osint():
     os.system('clear')
-    print('''
+    print(Fore.YELLOW+'''
 
         #o°    #Oo****°°*°°°*****oO#    °o#         
        oo   #o**°°°°°°.°. °°°°°.°°°°°**o#   oo       
@@ -200,11 +204,11 @@ def exploite():
 def checkroot():
     os.system('clear')
     if os.geteuid()!=0:
-        print('You are not root user')
+        print(Fore.RED + 'You are not root user')
         quit()
 def quitmain():
     os.system('clear')
-    print('bye!')
+    print(Fore.RED+'bye!')
 checkroot()
 print('''
                                          ╓╥╖
