@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/badge/Version-0.2_beta-red)](#)
+[![Version](https://img.shields.io/badge/Version-0.3_beta-red)](#)
 [![License](https://img.shields.io/badge/License-GPL_3.0-green)](#)
 [![Discord](https://img.shields.io/badge/Server-Discord-blue)](https://discord.gg/zcsZnDkBuS)
 # Index
@@ -23,7 +23,7 @@ sudo yum install python3 && sudo yum install python && sudo yum install python-p
 ```
 ## Installation of the tool is its requirements
 ```batch
-git clone https://github.com/aniko33/ODeCkS-ToolKit && cd ODeCkS-ToolKit
+git clone https://github.com/aniko33/ODeCkS-ToolKit && cd ODeCkS-ToolKit && pip install -r requiments.txt
 ```
 ### Now starting the tool
 ```batch
