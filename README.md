@@ -8,7 +8,7 @@
 # Installation guide
 ## pre-requisites
 ### Python
-##### Python installation is essential as the project is done in python
+###### Python installation is essential as the project is done in python
 #### For Debian/Ubuntu...
 ```bash
 sudo apt install python-pip python python3 python-is-python3 git
