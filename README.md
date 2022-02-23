@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/badge/Version-0.3_beta-red)](#)
+[![Version](https://img.shields.io/badge/Version-pre.0.3_beta-red)](#)
 [![License](https://img.shields.io/badge/License-GPL_3.0-green)](#)
 [![Discord](https://img.shields.io/badge/Server-Discord-blue)](https://discord.gg/zcsZnDkBuS)
 # Index
