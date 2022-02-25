@@ -191,11 +191,24 @@ def config():
         print('wait...')
 def exploite():
     os.system('clear')
-    print('''
-    
-
-    
-    ''')
+    print('''                 _
+               /\)
+              /\/
+             /\/
+           _/L/
+          (/\_)
+          /%/  
+         /%/  
+        /%/
+       /%/
+      /%/
+     /%/
+    /%/
+   /%/
+  /%/
+ /%/ 
+/,' 
+"''')
     print('''
     [1] MSFVenom buider''')
     select=input('Select: ')
