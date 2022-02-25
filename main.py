@@ -11,7 +11,7 @@ def phoneinfoga():
     os.system('cd tools && ./phoneinfoga scan -n '+phonenumber)
 def slock():
     os.system('clear')
-    target=input('Username: ')
+    target=input(Fore.LIGHTYELLOW_EX+ 'Username > ')
     os.system('cd sherlock/sherlock && python3 sherlock.py '+target)
 def whois():
     os.system('clear')
@@ -169,8 +169,8 @@ o o° ...** .... °#####O#o#.Oo#O#####° .... *oo*. *o o
     [2] Phoneinfoga''')
     select=input('Select: ')
     if select=='1':
-        target=input('Target: ')
-        os.system('cd Osintgram && python3 main.py '+target)
+        target=input(Fore.LIGHTYELLOW_EX+'Target > ')
+        os.system('cd Osintgram && python3 main.py '+target )
     elif select=='2':
         phoneinfoga()
 def config():
@@ -191,7 +191,7 @@ def config():
         print('wait...')
 def exploite():
     os.system('clear')
-    print('''                 _
+    print(Fore.LIGHTRED_EX+'''                 _
                /\)
               /\/
              /\/
