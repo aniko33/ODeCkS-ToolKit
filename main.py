@@ -1,4 +1,3 @@
-
 import time
 import os
 import getpass
@@ -10,6 +9,7 @@ def phoneinfoga():
     phonenumber=input(Fore.LIGHTYELLOW_EX+'Phone number > ')
     os.system('cd tools && ./phoneinfoga scan -n '+phonenumber)
 def slock():
+    os.system('clear')
     print(Fore.LIGHTMAGENTA_EX+'''
                                              _,aggdd888bbgg,,_
                                     ,ad88888YYYYYYYYYYY8888ba,
@@ -50,7 +50,6 @@ dP'  d888888888888P' ,d" ,d"
        "Ya,8d"
          "YP
     ''')
-    os.system('clear')
     target=input(Fore.LIGHTYELLOW_EX+ 'Username > ')
     os.system('cd sherlock/sherlock && python3 sherlock.py '+target)
 def whois():
@@ -59,6 +58,23 @@ def whois():
     os.system('whois '+target)
 def ig():
     os.system('clear')
+    print('''
+    
+                           !
+                       |
+                       |    |~/
+                       |   _|~
+         .============.|  (_|   |~/
+       .-;____________;|.      _|~
+       | [_________I__] |     (_|
+       |  """"" (_) (_) |
+       | .=====..=====. |
+       | |:::::||:::::| |
+       | '=====''=====' |
+       '----------------'
+
+    
+    ''')
     print('''
     [1] Whois
     [2] Sherlock''')
