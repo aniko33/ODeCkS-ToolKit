@@ -11,7 +11,7 @@
 ###### Python installation is essential as the project is done in python
 #### For Debian/Ubuntu...
 ```bash
-sudo apt install python python-pip python-is-python3 git
+sudo apt install python python3-pip python-is-python3 git
 ```
 #### For Arch
 ```bash
