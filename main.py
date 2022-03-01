@@ -4,6 +4,32 @@ import getpass
 import colorama
 from colorama import Fore, Back,Style
 colorama.init(autoreset=True)
+def main():
+    os.system('clear')
+time.sleep(0.10)
+print('''
+    [1] Scanning
+    [2] Exploitation
+    [3] OSINT
+    [4] Information gathering
+    [77] Install tools
+    [55] Config
+    [99] Exit''')
+select=input(Fore.LIGHTYELLOW_EX+'Select > ')
+if select=='1':
+    scanner()
+elif select=='2':
+    exploite()
+elif select=='3':
+    osint()
+elif select=='4':
+    ig()
+elif select=='99':
+    quitmain()
+elif select=='77':
+    upgrade()
+elif select=='55':
+    config()
 def phoneinfoga():
     os.system('clear')
     phonenumber=input(Fore.LIGHTYELLOW_EX+'Phone number > ')
@@ -85,12 +111,30 @@ def ig():
         slock()
 def scanner():
     os.system('clear')
+    print(Fore.WHITE+'''
+     .    '                   .  "   '
+            .  .  .                 '      '
+    "`       .   .
+                                     '     '
+  .    '      _______________
+          ==c(___(o(______(_()
+                  \=\
+                   )=\
+                  //|\\
+                 //|| \\
+                // ||  \\
+               //  ||   \\
+              //         \\
+    ''')
     print('''
     [1] Nmap
+    [99] Back
     ''')
     scanner=input(Fore.LIGHTYELLOW_EX+'Select > ')
     if scanner=='1':
         nmap()
+    elif scanner=='2':
+        main()
 def nmap():
     os.system('clear')
     print(Fore.GREEN+"""
@@ -103,7 +147,8 @@ def nmap():
     [1] Classic
     [2] Detect OS
     [3] Custom
-    [4] Vuln script''')
+    [4] Vuln script
+    [99] Back''')
     type=input('Type: ')
     if type=='1':
         IP=input('IP or Domain: ')
@@ -118,6 +163,8 @@ def nmap():
     elif type=='4':
         IP=input('IP or Domain: ')
         os.system('nmap -sV -O -script vuln '+IP)
+    elif type=='99':
+        scanner()
 def msfbuider():
     os.system('clear')
     print(Fore.CYAN+'''
@@ -270,10 +317,13 @@ def exploite():
 /,' 
 "''')
     print('''
-    [1] MSFVenom buider''')
+    [1] MSFVenom buider
+    [99] Back''')
     select=input(Fore.LIGHTYELLOW_EX+'Select > ')
     if select=='1':
         msfbuider()
+    elif select=='2':
+        main()
 def checkroot():
     os.system('clear')
     if os.geteuid()!=0:
@@ -283,6 +333,7 @@ def quitmain():
     os.system('clear')
     print(Fore.RED+'bye!')
 checkroot()
+os.system('clear')
 print(Fore.WHITE+'''
                                          ╓╥╖
                                       ╓@▄██▀`  ,,
@@ -324,3 +375,7 @@ elif select=='77':
     upgrade()
 elif select=='55':
     config()
+else:
+    time.sleep(1.6)
+    print(Fore.RED+'Error')
+    main()
