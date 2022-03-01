@@ -257,6 +257,7 @@ def checkroot():
     os.system('clear')
     if os.geteuid()!=0:
         print(Fore.RED + 'You are not root user')
+        quit()
 def quitmain():
     os.system('clear')
     print(Fore.RED+'bye!')
