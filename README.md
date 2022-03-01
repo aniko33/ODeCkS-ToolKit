@@ -30,7 +30,7 @@ git clone https://github.com/aniko33/ODeCkS-ToolKit && cd ODeCkS-ToolKit && pip 
 python3 main.py
 ```
 # Screenshot
-<img align="center" src=".img/main.jpg">
+<img align="center" src=".img/screenshot.jpg">
 
 ## Custributions
 #### https://github.com/Kato7Pog
