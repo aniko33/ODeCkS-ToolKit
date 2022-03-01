@@ -163,7 +163,7 @@ def upgrade():
     [4] Phoneinfoga
     [5] Sherlock
     [6] Whois''')
-    install=input(Fore.LIGHTYELLOW_EX+"Select > ")
+    install=input("Select > ")
     if install=='1':
         os.system('sudo apt install nmap && sudo pacman -S nmap')
     elif install=='6':
