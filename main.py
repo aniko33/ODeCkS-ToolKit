@@ -35,8 +35,8 @@ def slock():
                ,dP' ,d888888888888P' ,d" ,8bbaagggggaaddP""'
              ,dP' ,d888888888888P' ,d" ,d"'
            ,dP' ,d888888888888P' ,d" ,d"
-         ,dP' ,d888888888888P' ,d" ,d"     
-       ,dP' ,d888888888888P' ,d" ,d"      
+         ,dP' ,d888888888888P' ,d" ,d"
+       ,dP' ,d888888888888P' ,d" ,d"
      ,dP' ,d888888888888P' ,d" ,d"
    ,dP' ,d888888888888P' ,d" ,d"
  ,dP' ,d888888888888P' ,d" ,d"
@@ -59,7 +59,7 @@ def whois():
 def ig():
     os.system('clear')
     print('''
-    
+
                            !
                        |
                        |    |~/
@@ -73,7 +73,7 @@ def ig():
        | '=====''=====' |
        '----------------'
 
-    
+
     ''')
     print('''
     [1] Whois
@@ -107,15 +107,15 @@ def scanner():
     scanner=input(Fore.LIGHTYELLOW_EX+'Select > ')
     if scanner=='1':
         nmap()
-    elif scanner=='2':
+    elif scanner=='99':
         main()
 def nmap():
     os.system('clear')
     print(Fore.GREEN+"""
-  _  _   __  __     _     ___ 
+  _  _   __  __     _     ___
  | \| | |  \/  |   /_\   | _ |
  | .` | | |\/| |  / _ \  |  _|
- |_|\_| |_|  |_| /_/ \_\ |_|  
+ |_|\_| |_|  |_| /_/ \_\ |_|
                               """)
     print('''
     [1] Classic
@@ -129,7 +129,7 @@ def nmap():
         os.system('nmap -sV '+IP)
     elif type=='2':
         IP=input('IP or Domain: ')
-        os.system('nmap -O '+IP) 
+        os.system('nmap -O '+IP)
     elif type=='3':
         print('exaple: nmap -sV www.google.com')
         com=input('Insert Nmap command: ')
@@ -142,28 +142,28 @@ def nmap():
 def msfbuider():
     os.system('clear')
     print(Fore.CYAN+'''
-          °*°°°.                .°*°°°          
-                 °°°°°°°°°°°°°°                 
-         °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°         
-      ° °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° °      
-      ° °°°oOOOOO*°°°°°°°°°°°°oOOOOO*°°° °      
-      ° °°°o@@@@@@Oo°°°°°°°°o#@@@@@@*°°° °      
-      ° °°°o####@@@@#o*°°*O#@@@@####*°°° °      
-      ° °°°o@#@@##@@@@#OO@@@@@##@@#@*°°° °      
-      ° °°°o@##@o*O#@@@@@@@@#o°O@##@*°°° °      
-      ° °°°o@##@o°°°o#####O*°°°O@##@*°°° °      
-      ° °°°o@##@o°°°°o@#@#°°°°°O@##@*°°° °      
-      ° °°°o###@o°°°°o####*°°°°O@##@*°°° °      
-      ° °°°o@##@o°°°°o@@@@*°°°°O@##@*°°° °      
-       o°°°°#@##o°°°°*oooo°°°°°O##@O°°°°o       
-       ° °°°*O@@o°°°°°°°°°°°°°°O@#o°°°° o       
-        o  °°°*#o°°°°°°°°°°°°°°OO*°°°           
-         °  o°°°*°°°°°°°°°°°°°°°°°°  oo         
-           *   °°°°°°°°°°°°°°°°°°   °           
-             *°  °°°°°°°°°°°°°°  ..             
-               °°   °°°°°°°°   °°               
-                  .*   °°   ..                  
-                    o°.  °°o   
+          °*°°°.                .°*°°°
+                 °°°°°°°°°°°°°°
+         °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+      ° °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° °
+      ° °°°oOOOOO*°°°°°°°°°°°°oOOOOO*°°° °
+      ° °°°o@@@@@@Oo°°°°°°°°o#@@@@@@*°°° °
+      ° °°°o####@@@@#o*°°*O#@@@@####*°°° °
+      ° °°°o@#@@##@@@@#OO@@@@@##@@#@*°°° °
+      ° °°°o@##@o*O#@@@@@@@@#o°O@##@*°°° °
+      ° °°°o@##@o°°°o#####O*°°°O@##@*°°° °
+      ° °°°o@##@o°°°°o@#@#°°°°°O@##@*°°° °
+      ° °°°o###@o°°°°o####*°°°°O@##@*°°° °
+      ° °°°o@##@o°°°°o@@@@*°°°°O@##@*°°° °
+       o°°°°#@##o°°°°*oooo°°°°°O##@O°°°°o
+       ° °°°*O@@o°°°°°°°°°°°°°°O@#o°°°° o
+        o  °°°*#o°°°°°°°°°°°°°°OO*°°°
+         °  o°°°*°°°°°°°°°°°°°°°°°°  oo
+           *   °°°°°°°°°°°°°°°°°°   °
+             *°  °°°°°°°°°°°°°°  ..
+               °°   °°°°°°°°   °°
+                  .*   °°   ..
+                    o°.  °°o
     ''')
     os.system('python tools/msfbuider.py')
 def upgrade():
@@ -171,7 +171,7 @@ def upgrade():
     print('INSTALL TOOLS')
     print('''
     FIRST NECESSITY TOOL
-    
+
     [00] Nano
     [01] Sudo
     [02] Python
@@ -217,35 +217,35 @@ def upgrade():
 def osint():
     os.system('clear')
     print(Fore.YELLOW+'''
- 
-                                  
-                              ██████░░░░░░░░░░░░░░░░██████                              
-                            ██░░░░░░                ░░░░░░██          
-                          ██░░                            ░░██                      
-                        ██░░                                ░░██                        
-                        ██    ██████                ██████    ██                        
-                        ██  ░░░░░░░░████        ████░░░░░░░░  ██                        
-                        ██          ░░████    ████░░          ██                        
-                        ██            ░░░░    ░░░░            ██                        
-                        ██░░  ░░██████░░░░    ░░░░██████░░  ░░██                        
-                        ██░░░░██████████░░    ░░██████████░░░░██                        
-                        ██░░  ░░░░░░░░  ░░    ░░  ░░░░░░░░  ░░██                        
-                        ██              ░░    ░░              ██                        
-                        ██  ░░░░░░      ░░    ░░      ░░░░░░  ██                        
-                        ██  ░░░░░░    ░░        ░░    ░░░░░░  ██                        
-                        ██░░          ░░        ░░          ░░██                        
-                        ██░░░░██        ██░░░░██        ██░░░░██                        
-                        ██░░  ██████░░████████████░░██████  ░░██                        
-                        ██  ░░  ██████████    ██████████  ░░  ██                        
-                          ██  ░░░░    ░░░░░░░░░░░░    ░░░░  ██                          
-                          ██      ░░                ░░      ██                          
-                            ██  ░░  ░░░░░░████░░░░░░  ░░  ██                            
-                            ██░░  ░░      ████      ░░  ░░██                            
-                              ██░░      ░░████░░      ░░██                              
-                                ██░░    ░░████░░    ░░██                                
-                                  ██░░░░  ████  ░░░░██                                  
-                                    ████░░████░░████                                    
-                                        ████████                                        
+
+
+                              ██████░░░░░░░░░░░░░░░░██████
+                            ██░░░░░░                ░░░░░░██
+                          ██░░                            ░░██
+                        ██░░                                ░░██
+                        ██    ██████                ██████    ██
+                        ██  ░░░░░░░░████        ████░░░░░░░░  ██
+                        ██          ░░████    ████░░          ██
+                        ██            ░░░░    ░░░░            ██
+                        ██░░  ░░██████░░░░    ░░░░██████░░  ░░██
+                        ██░░░░██████████░░    ░░██████████░░░░██
+                        ██░░  ░░░░░░░░  ░░    ░░  ░░░░░░░░  ░░██
+                        ██              ░░    ░░              ██
+                        ██  ░░░░░░      ░░    ░░      ░░░░░░  ██
+                        ██  ░░░░░░    ░░        ░░    ░░░░░░  ██
+                        ██░░          ░░        ░░          ░░██
+                        ██░░░░██        ██░░░░██        ██░░░░██
+                        ██░░  ██████░░████████████░░██████  ░░██
+                        ██  ░░  ██████████    ██████████  ░░  ██
+                          ██  ░░░░    ░░░░░░░░░░░░    ░░░░  ██
+                          ██      ░░                ░░      ██
+                            ██  ░░  ░░░░░░████░░░░░░  ░░  ██
+                            ██░░  ░░      ████      ░░  ░░██
+                              ██░░      ░░████░░      ░░██
+                                ██░░    ░░████░░    ░░██
+                                  ██░░░░  ████  ░░░░██
+                                    ████░░████░░████
+                                        ████████
 
     [1] Osintgram
     [2] Phoneinfoga''')
@@ -258,7 +258,7 @@ def osint():
 def config():
     os.system('clear')
     print('''CONFIG SETTINGS
-    
+
     [1] Sudo
     [2] Osintgram''')
     select=input(Fore.LIGHTYELLOW_EX+'Select > ')
@@ -270,6 +270,16 @@ def config():
         print('info: https://github.com/Datalux/Osintgram/blob/master/README.md#installation')
         input(Fore.BLU+'Press Enter to continue')
         os.system('nano Osintgram/config/credentials.ini')
+def gpex():
+  os.system('cd tools && python3 exploit_greenpass.py')
+def misc():
+  os.system('clear')
+  print('''
+  [1] GreenPass Exploit
+  ''')
+  select=input('Select > ')
+  if select=='1':
+    gpex()
 def exploite():
     os.system('clear')
     print(Fore.LIGHTRED_EX+'''                 _
@@ -278,8 +288,8 @@ def exploite():
              /\/
            _/L/
           (/\_)
-          /%/  
-         /%/  
+          /%/
+         /%/
         /%/
        /%/
       /%/
@@ -287,8 +297,8 @@ def exploite():
     /%/
    /%/
   /%/
- /%/ 
-/,' 
+ /%/
+/,'
 "''')
     print('''
     [1] MSFVenom buider
@@ -303,38 +313,12 @@ def checkroot():
     if os.geteuid()!=0:
         print(Fore.RED + 'You are not root user')
         quit()
-def main():
-    os.system('clear')
-time.sleep(0.10)
-print('''
-    [1] Scanning
-    [2] Exploitation
-    [3] OSINT
-    [4] Information gathering
-    [77] Install tools
-    [55] Config
-    [99] Exit''')
-select=input(Fore.LIGHTYELLOW_EX+'Select > ')
-if select=='1':
-    scanner()
-elif select=='2':
-    exploite()
-elif select=='3':
-    osint()
-elif select=='4':
-    ig()
-elif select=='99':
-    quitmain()
-elif select=='77':
-    upgrade()
-elif select=='55':
-    config()
 def quitmain():
     os.system('clear')
     print(Fore.RED+'bye!')
 checkroot()
-os.system('clear')
-print(Fore.WHITE+'''
+def main():
+    print(Fore.WHITE+'''
                                          ╓╥╖
                                       ╓@▄██▀`  ,,
                                   ,g▄██▀`  ,╥▄██▀`
@@ -351,31 +335,37 @@ print(Fore.WHITE+'''
                                 `╙▀██▄,   ╙"`  ╓g▄██▀`
                                     ╙╙▀██▄,╓g▄██▀`
                                         ╙▀▀█▀''')
-time.sleep(0.10)
-print('''
+    time.sleep(0.10)
+    print('''
     [1] Scanning
     [2] Exploitation
     [3] OSINT
     [4] Information gathering
+    [5] Misc
     [77] Install tools
     [55] Config
     [99] Exit''')
-select=input(Fore.LIGHTYELLOW_EX+'Select > ')
-if select=='1':
-    scanner()
-elif select=='2':
-    exploite()
-elif select=='3':
-    osint()
-elif select=='4':
-    ig()
-elif select=='99':
-    quitmain()
-elif select=='77':
-    upgrade()
-elif select=='55':
-    config()
-else:
-    time.sleep(1.6)
-    print(Fore.RED+'Error')
-    main()
+    select=input(Fore.LIGHTYELLOW_EX+'Select > ')
+    if select=='1':
+      scanner()
+    elif select=='2':
+      exploite()
+    elif select=='3':
+      osint()
+    elif select=='4':
+      ig()
+    elif select=='5':
+      misc()
+    elif select=='99':
+      quitmain()
+    elif select=='77':
+      upgrade()
+    elif select=='55':
+      config()
+    else:
+        time.sleep(1.6)
+        print(Fore.RED+'Error')
+        main()
+os.system('clear')
+while True:
+  main()
