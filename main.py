@@ -357,6 +357,7 @@ def main():
     elif select=='5':
       misc()
     elif select=='99':
+      break
       quitmain()
     elif select=='77':
       upgrade()
