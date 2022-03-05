@@ -4,6 +4,8 @@ import getpass
 import colorama
 from colorama import Fore, Back,Style
 colorama.init(autoreset=True)
+def reverse_shell_gen():
+  os.system('python3 tools/reverse_shell.py')
 def phoneinfoga():
     os.system('clear')
     phonenumber=input(Fore.LIGHTYELLOW_EX+'Phone number > ')
@@ -276,10 +278,12 @@ def misc():
   os.system('clear')
   print('''
   [1] GreenPass Exploit
-  ''')
+  [2] Reverse shell Generator''')
   select=input('Select > ')
   if select=='1':
     gpex()
+  elif select=='2':
+    reverse_shell_gen()
 def exploite():
     os.system('clear')
     print(Fore.LIGHTRED_EX+'''                 _
