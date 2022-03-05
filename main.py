@@ -4,32 +4,6 @@ import getpass
 import colorama
 from colorama import Fore, Back,Style
 colorama.init(autoreset=True)
-def main():
-    os.system('clear')
-time.sleep(0.10)
-print('''
-    [1] Scanning
-    [2] Exploitation
-    [3] OSINT
-    [4] Information gathering
-    [77] Install tools
-    [55] Config
-    [99] Exit''')
-select=input(Fore.LIGHTYELLOW_EX+'Select > ')
-if select=='1':
-    scanner()
-elif select=='2':
-    exploite()
-elif select=='3':
-    osint()
-elif select=='4':
-    ig()
-elif select=='99':
-    quitmain()
-elif select=='77':
-    upgrade()
-elif select=='55':
-    config()
 def phoneinfoga():
     os.system('clear')
     phonenumber=input(Fore.LIGHTYELLOW_EX+'Phone number > ')
@@ -329,6 +303,32 @@ def checkroot():
     if os.geteuid()!=0:
         print(Fore.RED + 'You are not root user')
         quit()
+def main():
+    os.system('clear')
+time.sleep(0.10)
+print('''
+    [1] Scanning
+    [2] Exploitation
+    [3] OSINT
+    [4] Information gathering
+    [77] Install tools
+    [55] Config
+    [99] Exit''')
+select=input(Fore.LIGHTYELLOW_EX+'Select > ')
+if select=='1':
+    scanner()
+elif select=='2':
+    exploite()
+elif select=='3':
+    osint()
+elif select=='4':
+    ig()
+elif select=='99':
+    quitmain()
+elif select=='77':
+    upgrade()
+elif select=='55':
+    config()
 def quitmain():
     os.system('clear')
     print(Fore.RED+'bye!')
