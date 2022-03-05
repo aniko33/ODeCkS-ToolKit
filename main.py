@@ -316,6 +316,7 @@ def checkroot():
 def quitmain():
     os.system('clear')
     print(Fore.RED+'bye!')
+    quit()
 checkroot()
 def main():
     print(Fore.WHITE+'''
@@ -357,7 +358,6 @@ def main():
     elif select=='5':
       misc()
     elif select=='99':
-      break
       quitmain()
     elif select=='77':
       upgrade()
